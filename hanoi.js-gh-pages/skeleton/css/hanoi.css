@@ -1,0 +1,74 @@
+html, h1, body, figure, ul, li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+
+  background: transparent;
+}
+
+.group:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.hanoi-game {
+  width: 450px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.hanoi-game > ul {
+  list-style: none;
+  float: left;
+  border-bottom: 5px solid black;
+  width: 90px;
+  height: 60px;
+  margin: 30px;
+
+}
+
+.hanoi-game > .hover:hover {
+  background: yellow;
+  cursor: pointer;
+}
+
+.hanoi-game > ul > li {
+  text-align: center;
+  font-size: 36px;
+  margin: auto;
+  height: 20px;
+}
+
+.one {
+  background: black;
+  width: 20px;
+}
+
+.two {
+  background:black;
+  width: 50px;
+}
+
+.three {
+  background:black;
+  width: 80px;
+}
