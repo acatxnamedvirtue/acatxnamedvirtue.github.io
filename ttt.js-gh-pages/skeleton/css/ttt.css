@@ -31,7 +31,7 @@ h1 {
 .ttt-grid {
   width: 600px;
   margin: 0 auto;
-  border: 5px solid black;
+  /*border: 5px solid black;*/
 }
 
 .ttt-grid > li {
@@ -57,6 +57,7 @@ h1 {
   content: "X";
   font-size: 200px;
   font-weight: 700;
+  padding: 0 0 50px 0;
 }
 
 .ttt-grid > .o {

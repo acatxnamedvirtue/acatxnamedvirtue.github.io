@@ -28,7 +28,7 @@ h2 {
 }
 
 .hanoi-game {
-  width: 450px;
+  width: 650px;
   height: 300px;
   display: block;
   margin: 0 auto;
@@ -40,8 +40,8 @@ h2 {
   list-style: none;
   float: left;
   border-bottom: 5px solid black;
-  width: 90px;
-  height: 60px;
+  width: 150px;
+  height: 200px;
   margin: 30px;
 
 }
@@ -55,20 +55,20 @@ h2 {
   text-align: center;
   font-size: 36px;
   margin: auto;
-  height: 20px;
+  height: 66px;
 }
 
 .one {
   background: black;
-  width: 20px;
+  width: 40px;
 }
 
 .two {
   background:black;
-  width: 50px;
+  width: 100px;
 }
 
 .three {
   background:black;
-  width: 80px;
+  width: 140px;
 }
