@@ -9,11 +9,6 @@
  */
 
 
-.gallery p {
-  font-size: 24px;
-}
-
-
 /* ==========================================================================
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
@@ -101,6 +96,26 @@ h1, h2, h3, h4, h5, h6 {
 	color: #1abc9c;
 }
 
+.portfolio-images > div {
+  /*margin-top: 0;*/
+}
+
+#headerwrap > .container > .row {
+  margin-top: -50px;
+}
+
+#aboutwrap h2, #aboutwrap p {
+  color: #ffffff;
+}
+
+#aboutwrap > .container {
+  margin-top: -160px;
+  font-size: 18px;
+}
+
+#skills {
+  margin-bottom: 80px;
+}
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
@@ -138,6 +153,19 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap h4 {
 	font-weight: 400;
 	color: #ffffff
+}
+
+#headerwrap h4 a {
+  color: #1abc9c;
+}
+
+#headerwrap h4 a:hover {
+  text-decoration: none;
+  color: #777;
+}
+
+#headerwrap h4 a:visited, #headerwrap h4 a:active, #headerwrap h4 a:link {
+ text-decoration: none;
 }
 
 #social {
@@ -202,7 +230,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aboutwrap {
-	background: url(../img/pr01.jpg) center top;
+	/*background: url(../img/about.jpg) no-repeat center top;*/
+  background: url(../img/about.jpg) no-repeat;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
